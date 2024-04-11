@@ -18,7 +18,7 @@ This repository contains code for a personalized education system designed to en
 - A RESTful API is developed using Flask to handle student requests. The application includes endpoints for retrieving educational content and requesting explanations of concepts.
 
 ### 3. OpenAI GPT-4 Integration
-- GPT-4 is integrated for processing natural language queries and generating context-appropriate responses.
+- GPT-4 is integrated to process natural language queries and generate context-appropriate responses.
 - Uses embeddings and completions to provide personalized learning experiences.
 
 ## Fine-Tuning LLMs with AutoTrain
@@ -27,7 +27,7 @@ The `finetuning_mistrial.py` script is responsible for adapting a pre-trained GP
 
 ### Inference with the Fine-Tuned Model
 
-After fine-tuning, the `inference_of_tuned_model.py` script is used to generate inferences from the model. It serves as the querying interface that receives educational prompts and outputs the model's generated responses, thereby providing real-time educational assistance.
+After fine-tuning, the `inference_of_tuned_model.py` script generates inferences from the model. It serves as the querying interface that receives educational prompts and outputs the model's generated responses, providing real-time educational assistance.
 
 ## API Endpoints
 
@@ -53,7 +53,8 @@ To use the API, send a POST request to the `/get_explanation` endpoint with a JS
 ```bash
    {
      "student_id": "123456",
-     "question": "Explain the theory of relativity"
+     "question": "Explain the theory of relativity."
    }
 
-
+Contributing
+Contributions are welcome! For significant changes, please open an issue first to discuss what you want to change.
