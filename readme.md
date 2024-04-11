@@ -1,4 +1,5 @@
 # Personalized Education System Using GPT-4 and MongoDB
+> :construction: Project Status: Under active development :construction:
 
 This repository contains code for a personalized education system designed to enhance student learning through tailored educational content and interactive concept explanations. The system leverages OpenAI's GPT-4 model for natural language understanding and generation, coupled with MongoDB for storing and retrieving student-specific educational data.
 
@@ -58,3 +59,5 @@ To use the API, send a POST request to the `/get_explanation` endpoint with a JS
    ```
 ### Contributing
 Contributions are welcome! For significant changes, please open an issue first to discuss what you want to change.
+
+--- This is the parallel project to the my contributions as a volunteer at a early stage AI startup, can't use the same code due to piracy and copyright issues.
