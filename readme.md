@@ -50,11 +50,11 @@ After fine-tuning, the `inference_of_tuned_model.py` script generates inferences
 
 ### Example Usage 
 To use the API, send a POST request to the `/get_explanation` endpoint with a JSON payload containing the `student_id` and `question`. The system will return an explanation tailored to the student's learning level.
-```bash
+   ```json
    {
      "student_id": "123456",
      "question": "Explain the theory of relativity."
    }
-
-Contributing
+   ```
+### Contributing
 Contributions are welcome! For significant changes, please open an issue first to discuss what you want to change.
