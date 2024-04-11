@@ -44,4 +44,16 @@ After fine-tuning, the `inference_of_tuned_model.py` script is used to generate 
    ```bash
    git clone https://github.com/yourusername/personalized-education-system.git
 
+2. ** Install Dependencies: **
+3. ** Set Environment Variables: **
+4. ** Run the Flask Application: **
+
+### Example Usage 
+To use the API, send a POST request to the `/get_explanation` endpoint with a JSON payload containing the `student_id` and `question`. The system will return an explanation tailored to the student's learning level.
+```bash
+   {
+     "student_id": "123456",
+     "question": "Explain the theory of relativity"
+   }
+
 
